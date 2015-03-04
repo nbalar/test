@@ -11,6 +11,7 @@
             @{Html.RenderAction("Leftnav", "Common", new { @DomainId = Model.DomainId });}
         </div>
         <div class="span9">
+
             <form method="post" id="frmcontact" enctype="multipart/form-data">
                 @Html.HiddenFor(model => model.DomainId)
                 @Html.HiddenFor(model => model.ContactId)
