@@ -1,0 +1,27 @@
+H:\My Client\Steven Umesh Changes\MVC Projects\VenomitIT\VenomitIT.BLL\bin\Debug\VenomitIT.BLL.dll
+H:\My Client\Steven Umesh Changes\MVC Projects\VenomitIT\VenomitIT.BLL\bin\Debug\VenomitIT.BLL.pdb
+H:\My Client\Steven Umesh Changes\MVC Projects\VenomitIT\VenomitIT.BLL\bin\Debug\VenomitIT.Common.dll
+H:\My Client\Steven Umesh Changes\MVC Projects\VenomitIT\VenomitIT.BLL\bin\Debug\VenomitIT.DAL.dll
+H:\My Client\Steven Umesh Changes\MVC Projects\VenomitIT\VenomitIT.BLL\bin\Debug\VenomitIT.Common.pdb
+H:\My Client\Steven Umesh Changes\MVC Projects\VenomitIT\VenomitIT.BLL\bin\Debug\VenomitIT.DAL.pdb
+H:\My Client\Steven Umesh Changes\MVC Projects\VenomitIT\VenomitIT.BLL\obj\Debug\VenomitIT.BLL.csprojResolveAssemblyReference.cache
+H:\My Client\Steven Umesh Changes\MVC Projects\VenomitIT\VenomitIT.BLL\obj\Debug\VenomitIT.BLL.dll
+H:\My Client\Steven Umesh Changes\MVC Projects\VenomitIT\VenomitIT.BLL\obj\Debug\VenomitIT.BLL.pdb
+F:\My Client\Steven Powell\CMS\VenomitIT\VenomitIT.BLL\obj\Debug\VenomitIT.BLL.csprojResolveAssemblyReference.cache
+F:\My Client\Steven Powell\CMS\VenomitIT\VenomitIT.BLL\obj\Debug\VenomitIT.BLL.dll
+F:\My Client\Steven Powell\CMS\VenomitIT\VenomitIT.BLL\bin\Debug\VenomitIT.BLL.dll
+F:\My Client\Steven Powell\CMS\VenomitIT\VenomitIT.BLL\bin\Debug\VenomitIT.BLL.pdb
+F:\My Client\Steven Powell\CMS\VenomitIT\VenomitIT.BLL\bin\Debug\VenomitIT.Common.dll
+F:\My Client\Steven Powell\CMS\VenomitIT\VenomitIT.BLL\bin\Debug\VenomitIT.DAL.dll
+F:\My Client\Steven Powell\CMS\VenomitIT\VenomitIT.BLL\bin\Debug\VenomitIT.Common.pdb
+F:\My Client\Steven Powell\CMS\VenomitIT\VenomitIT.BLL\bin\Debug\VenomitIT.DAL.pdb
+F:\My Client\Steven Powell\CMS\VenomitIT\VenomitIT.BLL\obj\Debug\VenomitIT.BLL.pdb
+F:\My Client\Steven Powell\CMS\27-1\VenomitIT\VenomitIT.BLL\bin\Debug\VenomitIT.BLL.dll
+F:\My Client\Steven Powell\CMS\27-1\VenomitIT\VenomitIT.BLL\bin\Debug\VenomitIT.BLL.pdb
+F:\My Client\Steven Powell\CMS\27-1\VenomitIT\VenomitIT.BLL\bin\Debug\VenomitIT.Common.dll
+F:\My Client\Steven Powell\CMS\27-1\VenomitIT\VenomitIT.BLL\bin\Debug\VenomitIT.DAL.dll
+F:\My Client\Steven Powell\CMS\27-1\VenomitIT\VenomitIT.BLL\bin\Debug\VenomitIT.Common.pdb
+F:\My Client\Steven Powell\CMS\27-1\VenomitIT\VenomitIT.BLL\bin\Debug\VenomitIT.DAL.pdb
+F:\My Client\Steven Powell\CMS\27-1\VenomitIT\VenomitIT.BLL\obj\Debug\VenomitIT.BLL.csprojResolveAssemblyReference.cache
+F:\My Client\Steven Powell\CMS\27-1\VenomitIT\VenomitIT.BLL\obj\Debug\VenomitIT.BLL.dll
+F:\My Client\Steven Powell\CMS\27-1\VenomitIT\VenomitIT.BLL\obj\Debug\VenomitIT.BLL.pdb

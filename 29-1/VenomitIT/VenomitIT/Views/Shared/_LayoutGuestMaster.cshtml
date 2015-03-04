@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Satnam InfoTech-@ViewBag.Title</title>
+
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  
+  @*  <link href='@string.Concat(SatnamInfotech.Common.ConfigHelper.JavaScriptPath, "video/video-js.min.css", SatnamInfotech.Common.ConfigHelper.Version)' rel="stylesheet" type="text/css" />*@
+</head>
+<body>
+
+    <div class="navbar navbar-inverse navbar-static-top">
+
+        <div class="navbar-inner">
+            <div class="container">
+                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse" href="#">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </a>
+                <a class="brand" href="#">
+                   </a>
+                <div class="nav-collapse">
+                    <ul class="nav">
+                        <li class="dropdown">
+                            <a href="#">Home</a>
+
+                        </li>
+
+                        <li class="dropdown">
+                            <a href="#">Aboutus</a>
+
+                        </li>
+                        <li class="dropdown">
+                            <a href="#">Project</a>
+
+                        </li>
+                        <li class="dropdown">
+                            <a href="#">Testmonials</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Creative Design Services<b class="caret"></b></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Website Designing Services</a></li>
+                                        <li><a href="#">Logo Designing Services</a></li>
+                                        <li><a href="#">Banner Designs</a></li>
+                                        <li><a href="#">Email Template Design</a></li>
+                                        <li><a href="#">Website Re-designing</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Web Application Development</a>
+                                </li>
+                                <li><a href="#">Internet Marketing Services</a></li>
+                                <li><a href="#">Windows Applications</a></li>
+                                <li><a href="#">Website Hostings</a></li>
+                                <li><a href="#">Mobile Application Development</a></li>
+
+                            </ul>
+
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="grid10a.html">Web Designer</a></li>
+                                <li><a href="grid10a.html">Web Developer</a></li>
+                            </ul>
+                        </li>
+                     
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    @RenderBody()
+
+    <footer id="footer" class="vspace20">
+        <div class="container">
+            <div class="row">
+                <div class="span4">
+                    <h4>Creative Services</h4>
+                    <p><i class="icon-map-marker"></i>&nbsp;Website Designing</p>
+                    <p><i class="icon-map-marker"></i>&nbsp;Logo Designing</p>
+                    <p><i class="icon-map-marker"></i>&nbsp;Banner Designs</p>
+                    <p><i class="icon-map-marker"></i>&nbsp;Email Template Design</p>
+                    <p><i class="icon-map-marker"></i>&nbsp;Website Re-designing</p>
+                </div>
+
+                <div class="span4">
+                    <h4>Location and Contacts</h4>
+                    <p><i class="icon-map-marker"></i>&nbsp;62,63 Mahavir Nagar Soc, A Surat</p>
+                    <p><i class="icon-phone"></i>&nbsp;Phone: 9978155166</p>
+                    <p><i class="icon-print"></i>&nbsp;Fax: 213 123.12.090</p>
+                    <p><i class="icon-envelope"></i>&nbsp;Email: nbalar@satnameinfotech.com</p>
+                    <p><i class="icon-globe"></i>&nbsp;Web: http://www.SatnamInfotech.com</p>
+                </div>
+
+                <div class="span4">
+                    <h4>Newsletter</h4>
+                    <p>Write you email to subscribe to our Newsletter service. Thanks!</p>
+                    <form class="form-newsletter">
+                        <div class="input-append">
+                            <input type="email" class="span2" placeholder="your email">
+                            <button type="submit" class="btn">Subscribe</button>
+
+                        </div>
+                    </form>
+
+                    <h4>Follow Us on Socials</h4>
+                    <p>
+                        <a href="#">
+                            <img src="../Images/socials/facebook.png" alt="" /></a>
+                        <a href="#">
+                            <img src="../Images/socials/twitter.png" alt="" /></a>
+                        <a href="#">
+                            <img src="../Images/socials/youtube.png" alt="" /></a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="span6">
+                    <p>&copy; Copyright 2012.&nbsp;<a href="#">Privacy</a>&nbsp;&amp;&nbsp;<a href="#">Terms and Conditions</a></p>
+                </div>
+                <div class="span2 offset4">
+                    <a href="http://www.responsivewebmobile.com" target="_blank">Copright SatnameInfotech pvt.Ltd</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

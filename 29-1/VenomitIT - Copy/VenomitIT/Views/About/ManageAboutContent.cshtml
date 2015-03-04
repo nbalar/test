@@ -1,0 +1,59 @@
+﻿@using VenomitIT.Common;
+@using VenomitIT.BLL;
+@model VenomitIT.DAL.AboutDetailsModel
+@{
+    ViewBag.Title = "ManageAboutContent";
+    var domainName = "";
+    if (Model.DomainId > 0)
+    {
+        domainName = @DomainBLL.getDomainDetailsById(Model.DomainId).DomainName;
+    }
+}
+<div class="row">
+<div class="span3">
+    @{Html.RenderAction("Leftnav", "Common",new {@DomainId= Model.DomainId});}
+</div>
+<div class="pdetail_left_mid pdetail_left_mid_02 span9">
+    <div class="p_detail_btn_box p_detail_btn_box_01" style="padding: 12px 0;">
+        <div class="left_box">
+            <a href="@String.Concat(VenomitIT.Common.NavigationURL.AddAboutContent, Model.AboutId)"  class="new_r_btn">Add Slider Content</a>
+            <a href="@String.Concat(VenomitIT.Common.NavigationURL.ManageAbout, Model.DomainId)"  class="back_r_btn">Back Slider</a>
+        </div>
+        <div class="right_box">
+            <label>Domain:   @domainName</label>
+        </div>
+    </div>
+    <div>
+        @{
+            var grid = new WebGrid(Model.aboutusdetailsList, rowsPerPage: 10);
+            grid.Pager(WebGridPagerModes.NextPrevious);}
+        <div id="gridContent">
+            @grid.GetHtml(tableStyle: "table_main_03 more_col border_collapse table",
+            headerStyle: "header",
+            alternatingRowStyle: "alt",
+            selectedRowStyle: "select",
+            columns: grid.Columns(
+              grid.Column("", "About Us Image", format: @<text><img src="@item.AboutImage" width="50" height="50" /></text>),
+            grid.Column("Title", "Title"),
+            grid.Column("Description", "Description"),
+            grid.Column("IsActive", "IsActive"),
+            grid.Column("", "Action", format: @<text><a href="@string.Concat(VenomitIT.Common.NavigationURL.EditAboutContent, item.AboutDetailsId)">Edit</a>&nbsp;&nbsp;<a onclick="return ConfirmDelete(@item.AboutDetailsId);" href="javascript://">Delete</a></text>)
+
+     ))
+        </div>
+        <br />
+        </div>
+    </div>
+</div>
+<script>
+    function ConfirmDelete(AboutDetailsId) {
+        var r = window.confirm("are you sure delete this Slider And Details.");
+        if (r == true) {
+            window.location.href = '@String.Concat(NavigationURL.DeleteAboutContent)' + AboutDetailsId;
+            return true;
+        }
+        else {
+            return false;
+        }
+    }
+</script>

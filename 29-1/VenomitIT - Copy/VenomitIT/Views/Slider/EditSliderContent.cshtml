@@ -1,0 +1,58 @@
+﻿@using VenomitIT.Common;
+@using VenomitIT.BLL;
+@model VenomitIT.DAL.EditSliderContentModel
+@{
+    ViewBag.Title = "EditSliderContent";
+}
+<div class="container">
+    <div class="row">
+    <div class="span3">
+     @{Html.RenderAction("Leftnav", "Common",new {@DomainId= Model.DomainId});}
+    </div>
+    <div class="span9">
+        <form method="post" id="frmslider" enctype="multipart/form-data">
+            @Html.HiddenFor(model => model.SliderDetailsId)
+            @Html.HiddenFor(model => model.SliderId)
+            @Html.HiddenFor(model => model.DomainId)
+            <div class="form_area form_area_01">
+                <ul>
+
+                    <li>
+                        <label>
+                            Title :</label>
+                        @Html.TextBoxFor(x => x.Title)
+                        @Html.ValidationMessageFor(x => x.Title)
+                    </li>
+                    <li>
+                        <label>
+                            Description :</label>
+                        @Html.TextAreaFor(x => x.Description)
+                        @Html.ValidationMessageFor(x => x.Description)
+                    </li>
+                    <li>
+                        <label>
+                            Is Active :</label>
+                        @Html.CheckBoxFor(model => model.IsActive)
+                    </li>
+                </ul>
+            </div>
+            <div class="btn_box23">
+                <input type="submit" value="" id="btnSave" class="save_btn" />
+                <div class="p_detail_btn_box p_detail_btn_box_01" style="width: 137px !important;">
+                    <div class="left_box">
+                        <input type="button" value="" id="btncancel" onclick="Back()" class="cancel_btn" />
+                    </div>
+
+
+
+                </div>
+            </div>
+        </form>
+        <script>
+            function Back() {
+                window.location = '@VenomitIT.Common.NavigationURL.ManageSliderContent' + '@Model.SliderId';
+    }
+        </script>
+    </div>
+</div>
+</div>

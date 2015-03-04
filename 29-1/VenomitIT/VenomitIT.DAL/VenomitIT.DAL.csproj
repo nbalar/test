@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{61B581E7-7B68-4D85-9833-0DE232BF7F29}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>VenomitIT.DAL</RootNamespace>
+    <AssemblyName>VenomitIT.DAL</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutUsDAL.cs" />
+    <Compile Include="AboutUsDetailDAL.cs" />
+    <Compile Include="AboutUsModel.cs" />
+    <Compile Include="AccountDAL.cs" />
+    <Compile Include="BackupDAL.cs" />
+    <Compile Include="BackupModel.cs" />
+    <Compile Include="BaseDAL.cs" />
+    <Compile Include="ContactDAL.cs" />
+    <Compile Include="ContactModel.cs" />
+    <Compile Include="CustomerTestimonialDAL.cs" />
+    <Compile Include="CustomerTestimonialModel.cs" />
+    <Compile Include="DALConfigHelper.cs" />
+    <Compile Include="DALConfigKey.cs" />
+    <Compile Include="DataCenterDAL.cs" />
+    <Compile Include="DataCenterDetailsDAL.cs" />
+    <Compile Include="DataCenterModel.cs" />
+    <Compile Include="DomainDAL.cs" />
+    <Compile Include="DomainModel.cs" />
+    <Compile Include="PricingDetailsDAL.cs" />
+    <Compile Include="ServiceDAL.cs" />
+    <Compile Include="ServiceModel.cs" />
+    <Compile Include="PricingDAL.cs" />
+    <Compile Include="PricingModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SignInModel.cs" />
+    <Compile Include="SiteEnum.cs" />
+    <Compile Include="SliderContentDAL.cs" />
+    <Compile Include="SliderDAL.cs" />
+    <Compile Include="SliderModel.cs" />
+    <Compile Include="TestimonailDAL.cs" />
+    <Compile Include="TestimonailModel.cs" />
+    <Compile Include="UserDAL.cs" />
+    <Compile Include="VenomitITEntityModel.cs" />
+    <Compile Include="VenomitITModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>VenomitITModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="WhyWeDAL.cs" />
+    <Compile Include="WhyWeModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\VenomitIT.Common\VenomitIT.Common.csproj">
+      <Project>{aea96762-0520-4cec-aa21-7db9e65c3a87}</Project>
+      <Name>VenomitIT.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config" />
+    <None Include="packages.config" />
+    <EntityDeploy Include="VenomitITModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>VenomitITModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="VenomitITModel.edmx.diagram">
+      <DependentUpon>VenomitITModel.edmx</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

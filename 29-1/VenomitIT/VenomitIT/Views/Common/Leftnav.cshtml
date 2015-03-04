@@ -1,0 +1,18 @@
+﻿@{
+    int DomainId = Convert.ToInt32(ViewBag.domainId);
+}
+
+<div class="left_navigation">
+    <ul>
+        <li class="active"><a href="@String.Concat(VenomitIT.Common.NavigationURL.ManageSlider, DomainId)">Slider</a></li>
+        <li><a href="@String.Concat(VenomitIT.Common.NavigationURL.ManageAbout, DomainId)">About Us</a></li>
+        <li><a href="@String.Concat(VenomitIT.Common.NavigationURL.ManagePricing, DomainId)">Pricing</a></li>
+        <li><a href="@String.Concat(VenomitIT.Common.NavigationURL.ManageService, DomainId)">Service Details</a></li>
+        <li><a href="@String.Concat(VenomitIT.Common.NavigationURL.ManageTestimonial, DomainId)">Testimonial</a></li>
+        <li><a href="@String.Concat(VenomitIT.Common.NavigationURL.ManageDataCenter, DomainId)">DataCenters</a></li>
+        <li><a href="@String.Concat(VenomitIT.Common.NavigationURL.ManageWhyWe, DomainId)">Why We</a></li>
+        <li><a href="@String.Concat(VenomitIT.Common.NavigationURL.ManageCustomerTestimonial, DomainId)">Customer Testimonial</a></li>
+        <li><a href="@String.Concat(VenomitIT.Common.NavigationURL.ManageBackup, DomainId)">Backup Details</a></li>
+        <li><a href="@String.Concat(VenomitIT.Common.NavigationURL.ManageContact, DomainId)">Contact Details</a></li>
+    </ul>
+</div>

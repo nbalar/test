@@ -1,0 +1,15 @@
+H:\My Client\Steven Umesh Changes\MVC Projects\VenomitIT\VenomitIT.Common\bin\Debug\VenomitIT.Common.dll
+H:\My Client\Steven Umesh Changes\MVC Projects\VenomitIT\VenomitIT.Common\bin\Debug\VenomitIT.Common.pdb
+H:\My Client\Steven Umesh Changes\MVC Projects\VenomitIT\VenomitIT.Common\obj\Debug\VenomitIT.Common.csprojResolveAssemblyReference.cache
+H:\My Client\Steven Umesh Changes\MVC Projects\VenomitIT\VenomitIT.Common\obj\Debug\VenomitIT.Common.dll
+H:\My Client\Steven Umesh Changes\MVC Projects\VenomitIT\VenomitIT.Common\obj\Debug\VenomitIT.Common.pdb
+F:\My Client\Steven Powell\CMS\VenomitIT\VenomitIT.Common\bin\Debug\VenomitIT.Common.dll
+F:\My Client\Steven Powell\CMS\VenomitIT\VenomitIT.Common\bin\Debug\VenomitIT.Common.pdb
+F:\My Client\Steven Powell\CMS\VenomitIT\VenomitIT.Common\obj\Debug\VenomitIT.Common.dll
+F:\My Client\Steven Powell\CMS\VenomitIT\VenomitIT.Common\obj\Debug\VenomitIT.Common.pdb
+F:\My Client\Steven Powell\CMS\VenomitIT\VenomitIT.Common\obj\Debug\VenomitIT.Common.csprojResolveAssemblyReference.cache
+F:\My Client\Steven Powell\CMS\27-1\VenomitIT\VenomitIT.Common\bin\Debug\VenomitIT.Common.dll
+F:\My Client\Steven Powell\CMS\27-1\VenomitIT\VenomitIT.Common\bin\Debug\VenomitIT.Common.pdb
+F:\My Client\Steven Powell\CMS\27-1\VenomitIT\VenomitIT.Common\obj\Debug\VenomitIT.Common.dll
+F:\My Client\Steven Powell\CMS\27-1\VenomitIT\VenomitIT.Common\obj\Debug\VenomitIT.Common.pdb
+F:\My Client\Steven Powell\CMS\27-1\VenomitIT\VenomitIT.Common\obj\Debug\VenomitIT.Common.csprojResolveAssemblyReference.cache

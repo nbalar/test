@@ -1,0 +1,161 @@
+﻿@model VenomitIT.DAL.SignInModel
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Venom IT</title>
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    
+    <link href='@string.Concat(VenomitIT.Common.ConfigHelper.SiteCssPath, "font-awesome.min.css", VenomitIT.Common.ConfigHelper.Version)' rel="stylesheet" type="text/css" />
+	<link href='@string.Concat(VenomitIT.Common.ConfigHelper.SiteCssPath, "froala_editor.min.css", VenomitIT.Common.ConfigHelper.Version)' rel="stylesheet" type="text/css" />
+    <link href='@string.Concat(VenomitIT.Common.ConfigHelper.SiteCssPath, "froala_style.min.css", VenomitIT.Common.ConfigHelper.Version)' rel="stylesheet" type="text/css" />
+    
+    <link href='@string.Concat(VenomitIT.Common.ConfigHelper.SiteCssPath, "style.css", VenomitIT.Common.ConfigHelper.Version)' rel="stylesheet" type="text/css" />
+    <link href='@string.Concat(VenomitIT.Common.ConfigHelper.SiteCssPath, "bootstrap.css", VenomitIT.Common.ConfigHelper.Version)' rel="stylesheet" type="text/css" />
+    <link href='@string.Concat(VenomitIT.Common.ConfigHelper.SiteCssPath, "bootstrap-responsive.css", VenomitIT.Common.ConfigHelper.Version)' rel="stylesheet" type="text/css" />
+    <script src='@string.Concat(VenomitIT.Common.ConfigHelper.JavaScriptPath, "jquery-1.9.1.js", VenomitIT.Common.ConfigHelper.Version)' type="text/javascript"></script>
+    <script src='@string.Concat(VenomitIT.Common.ConfigHelper.JavaScriptPath, "bootstrap.js", VenomitIT.Common.ConfigHelper.Version)' type="text/javascript"></script>
+
+    <script src='@string.Concat(VenomitIT.Common.ConfigHelper.JavaScriptPath, "froala_editor.min.js", VenomitIT.Common.ConfigHelper.Version)' type="text/javascript"></script>
+    
+  <!--[if lt IE 9]>
+     <script src='@string.Concat(VenomitIT.Common.ConfigHelper.JavaScriptPath, "froala_editor_ie8.min.js", VenomitIT.Common.ConfigHelper.Version)' type="text/javascript"></script>
+  <![endif]-->
+
+    <script src='@string.Concat(VenomitIT.Common.ConfigHelper.JavaScriptPath, "tables.min.js", VenomitIT.Common.ConfigHelper.Version)' type="text/javascript"></script>
+    <script src='@string.Concat(VenomitIT.Common.ConfigHelper.JavaScriptPath, "lists.min.js", VenomitIT.Common.ConfigHelper.Version)' type="text/javascript"></script>
+    <script src='@string.Concat(VenomitIT.Common.ConfigHelper.JavaScriptPath, "colors.min.js", VenomitIT.Common.ConfigHelper.Version)' type="text/javascript"></script>
+    <script src='@string.Concat(VenomitIT.Common.ConfigHelper.JavaScriptPath, "media_manager.min.js", VenomitIT.Common.ConfigHelper.Version)' type="text/javascript"></script>
+    <script src='@string.Concat(VenomitIT.Common.ConfigHelper.JavaScriptPath, "font_family.min.js", VenomitIT.Common.ConfigHelper.Version)' type="text/javascript"></script>
+    <script src='@string.Concat(VenomitIT.Common.ConfigHelper.JavaScriptPath, "font_size.min.js", VenomitIT.Common.ConfigHelper.Version)' type="text/javascript"></script>
+    <script src='@string.Concat(VenomitIT.Common.ConfigHelper.JavaScriptPath, "block_styles.min.js", VenomitIT.Common.ConfigHelper.Version)' type="text/javascript"></script>
+    <script src='@string.Concat(VenomitIT.Common.ConfigHelper.JavaScriptPath, "video.min.js", VenomitIT.Common.ConfigHelper.Version)' type="text/javascript"></script>
+
+  <script>
+      $(function () {
+          $('#edit').editable({ inlineMode: false })
+      });
+  </script>
+</head>
+<body>
+    <form id="fromlogin" method="post">
+        <!--Header Start-->
+        <header id="header">
+            <div class="container">
+                <div class="row-fluid">
+                    <div class="span12">
+                        <div id="logo">
+                            <a href="default.aspx">
+                                <img src="images/logo.png" /></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--Header end-->
+
+        <!--Content Start-->
+        <div class="container">
+            <div class="row">
+                <!-- Start of Main Content Container -->
+                <div class="span12">
+                    <!-- Start of Main Login Container -->
+                    <div class="main_login">
+                        <div class="login_container">
+                            <!-- Start of Login Top Box -->
+                            <div class="login_top_box">
+                                <!-- Start of Left heading -->
+                                <h2>CMS Web Administration</h2>
+                                <!-- End of Left heading -->
+                            </div>
+                            <!-- End of Login Top Box -->
+                            <div class="login_top_bg"></div>
+                            <!-- Start of Login Bottom Box -->
+                            <div class="login_bottom_box">
+                                <div class="login_box">
+                                    <h3>Welcome to Venom IT</h3>
+                                    <!-- Start of Login Left Box -->
+                                    <div class="login_main_left">
+                                        <p>Use a valid username and password to gain access to the web administration console. </p>
+                                        <div class="lock_box">
+                                            <img src="/Admin/images/lock.png" alt="" />
+                                        </div>
+                                        <asp:label id="lblmsg" runat="server" width="200"></asp:label>
+                                    </div>
+                                    <!-- End of Login Left Box -->
+                                    <!-- Start of Login Right Box -->
+                                    <div class="login_main_right">
+                                        <div class="login_r_mid">
+                                            <label></label>
+                                            <span>@Model.LoginErrorMsg</span>
+                                            <label id="label">User Name</label>
+                                            <span style="float: right">
+                                                @*  <input type="text" width="250px" height="22px" />*@
+                                                @Html.TextBoxFor(x => x.Username)
+                                                @Html.ValidationMessageFor(x => x.Username)
+                                            </span>
+                                            <label>Password</label>
+                                            <span style="float: right">
+
+                                                @*  <input type="password" width="250px" height="22px" />*@
+                                                @Html.PasswordFor(x => x.Password)
+                                                @Html.ValidationMessageFor(x => x.Password)
+
+
+                                            </span>
+                                            <input type="submit" id="btnSubmit" value="" class="login_btn" />
+                                            <div class="txt_msg">
+                                                <p>Forgot Password ? <a href="@VenomitIT.Common.NavigationURL.ForgotPasswordPage">CLICK HERE</a><span>* Indicates Required Fields</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End of Login Right Box --href="dashboard.html">             
+                        </div>
+                    	<!-- Start of Login Bottom Box -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End of Main Login Container -->
+                    </div>
+                    <!-- End of Main Content Container -->
+                </div>
+                <!-- End of MainFrame -->
+            </div>
+        </div>
+
+
+        <!-- Start of Footer MainFrame -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="span12">
+                        <div id="footer_wrapper">
+                            <div id="copyright">
+                                <span>Copyright &copy; 2014  Venom IT. All rights reserved.</span>
+                            </div>
+                            <div class="footer-menu">
+                                <ul>
+                                    <li><a href="#">Public Website</a></li>
+                                    <li>|</li>
+                                    <li><a href="#">Contact Us</a></li>
+                                    <li>|</li>
+                                    <li><a href="#">Privacy Policies</a></li>
+                                    <li>|</li>
+                                    <li><a href="#">FAQs</a></li>
+                                    <li>|</li>
+                                    <li><a href="#">Terms and Conditions</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End of Footer MainFrame -->
+    </form>
+</body>
+</html>

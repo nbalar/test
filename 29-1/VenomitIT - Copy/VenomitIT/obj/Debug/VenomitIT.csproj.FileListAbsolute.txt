@@ -1,0 +1,165 @@
+H:\My Client\Steven Umesh Changes\MVC Projects\VenomitIT\VenomitIT\bin\VenomitIT.dll
+H:\My Client\Steven Umesh Changes\MVC Projects\VenomitIT\VenomitIT\bin\VenomitIT.pdb
+H:\My Client\Steven Umesh Changes\MVC Projects\VenomitIT\VenomitIT\bin\Microsoft.Web.Infrastructure.dll
+H:\My Client\Steven Umesh Changes\MVC Projects\VenomitIT\VenomitIT\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+H:\My Client\Steven Umesh Changes\MVC Projects\VenomitIT\VenomitIT\bin\Newtonsoft.Json.dll
+H:\My Client\Steven Umesh Changes\MVC Projects\VenomitIT\VenomitIT\bin\System.Net.Http.Formatting.dll
+H:\My Client\Steven Umesh Changes\MVC Projects\VenomitIT\VenomitIT\bin\System.Web.Helpers.dll
+H:\My Client\Steven Umesh Changes\MVC Projects\VenomitIT\VenomitIT\bin\System.Web.Http.dll
+H:\My Client\Steven Umesh Changes\MVC Projects\VenomitIT\VenomitIT\bin\System.Web.Http.WebHost.dll
+H:\My Client\Steven Umesh Changes\MVC Projects\VenomitIT\VenomitIT\bin\System.Web.Mvc.dll
+H:\My Client\Steven Umesh Changes\MVC Projects\VenomitIT\VenomitIT\bin\System.Web.Razor.dll
+H:\My Client\Steven Umesh Changes\MVC Projects\VenomitIT\VenomitIT\bin\System.Web.WebPages.Deployment.dll
+H:\My Client\Steven Umesh Changes\MVC Projects\VenomitIT\VenomitIT\bin\System.Web.WebPages.dll
+H:\My Client\Steven Umesh Changes\MVC Projects\VenomitIT\VenomitIT\bin\System.Web.WebPages.Razor.dll
+H:\My Client\Steven Umesh Changes\MVC Projects\VenomitIT\VenomitIT\bin\VenomitIT.BLL.dll
+H:\My Client\Steven Umesh Changes\MVC Projects\VenomitIT\VenomitIT\bin\VenomitIT.Common.dll
+H:\My Client\Steven Umesh Changes\MVC Projects\VenomitIT\VenomitIT\bin\VenomitIT.DAL.dll
+H:\My Client\Steven Umesh Changes\MVC Projects\VenomitIT\VenomitIT\bin\VenomitIT.BLL.pdb
+H:\My Client\Steven Umesh Changes\MVC Projects\VenomitIT\VenomitIT\bin\VenomitIT.Common.pdb
+H:\My Client\Steven Umesh Changes\MVC Projects\VenomitIT\VenomitIT\bin\VenomitIT.DAL.pdb
+H:\My Client\Steven Umesh Changes\MVC Projects\VenomitIT\VenomitIT\bin\Newtonsoft.Json.xml
+H:\My Client\Steven Umesh Changes\MVC Projects\VenomitIT\VenomitIT\bin\System.Net.Http.Formatting.xml
+H:\My Client\Steven Umesh Changes\MVC Projects\VenomitIT\VenomitIT\bin\System.Web.Helpers.xml
+H:\My Client\Steven Umesh Changes\MVC Projects\VenomitIT\VenomitIT\bin\System.Web.Http.xml
+H:\My Client\Steven Umesh Changes\MVC Projects\VenomitIT\VenomitIT\bin\System.Web.Http.WebHost.xml
+H:\My Client\Steven Umesh Changes\MVC Projects\VenomitIT\VenomitIT\bin\System.Web.Mvc.xml
+H:\My Client\Steven Umesh Changes\MVC Projects\VenomitIT\VenomitIT\bin\System.Web.Razor.xml
+H:\My Client\Steven Umesh Changes\MVC Projects\VenomitIT\VenomitIT\bin\System.Web.WebPages.xml
+H:\My Client\Steven Umesh Changes\MVC Projects\VenomitIT\VenomitIT\bin\System.Web.WebPages.Deployment.xml
+H:\My Client\Steven Umesh Changes\MVC Projects\VenomitIT\VenomitIT\bin\System.Web.WebPages.Razor.xml
+H:\My Client\Steven Umesh Changes\MVC Projects\VenomitIT\VenomitIT\obj\Debug\VenomitIT.csprojResolveAssemblyReference.cache
+H:\My Client\Steven Umesh Changes\MVC Projects\VenomitIT\VenomitIT\obj\Debug\VenomitIT.dll
+H:\My Client\Steven Umesh Changes\MVC Projects\VenomitIT\VenomitIT\obj\Debug\VenomitIT.pdb
+F:\My Client\Steven Powell\CMS\VenomitIT\VenomitIT\bin\VenomitIT.dll
+F:\My Client\Steven Powell\CMS\VenomitIT\VenomitIT\bin\VenomitIT.pdb
+F:\My Client\Steven Powell\CMS\VenomitIT\VenomitIT\bin\Microsoft.Web.Infrastructure.dll
+F:\My Client\Steven Powell\CMS\VenomitIT\VenomitIT\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+F:\My Client\Steven Powell\CMS\VenomitIT\VenomitIT\bin\Newtonsoft.Json.dll
+F:\My Client\Steven Powell\CMS\VenomitIT\VenomitIT\bin\System.Net.Http.Formatting.dll
+F:\My Client\Steven Powell\CMS\VenomitIT\VenomitIT\bin\System.Web.Helpers.dll
+F:\My Client\Steven Powell\CMS\VenomitIT\VenomitIT\bin\System.Web.Http.dll
+F:\My Client\Steven Powell\CMS\VenomitIT\VenomitIT\bin\System.Web.Http.WebHost.dll
+F:\My Client\Steven Powell\CMS\VenomitIT\VenomitIT\bin\System.Web.Mvc.dll
+F:\My Client\Steven Powell\CMS\VenomitIT\VenomitIT\bin\System.Web.Razor.dll
+F:\My Client\Steven Powell\CMS\VenomitIT\VenomitIT\bin\System.Web.WebPages.Deployment.dll
+F:\My Client\Steven Powell\CMS\VenomitIT\VenomitIT\bin\System.Web.WebPages.dll
+F:\My Client\Steven Powell\CMS\VenomitIT\VenomitIT\bin\System.Web.WebPages.Razor.dll
+F:\My Client\Steven Powell\CMS\VenomitIT\VenomitIT\bin\VenomitIT.BLL.dll
+F:\My Client\Steven Powell\CMS\VenomitIT\VenomitIT\bin\VenomitIT.Common.dll
+F:\My Client\Steven Powell\CMS\VenomitIT\VenomitIT\bin\VenomitIT.DAL.dll
+F:\My Client\Steven Powell\CMS\VenomitIT\VenomitIT\bin\VenomitIT.BLL.pdb
+F:\My Client\Steven Powell\CMS\VenomitIT\VenomitIT\bin\VenomitIT.Common.pdb
+F:\My Client\Steven Powell\CMS\VenomitIT\VenomitIT\bin\VenomitIT.DAL.pdb
+F:\My Client\Steven Powell\CMS\VenomitIT\VenomitIT\bin\Newtonsoft.Json.xml
+F:\My Client\Steven Powell\CMS\VenomitIT\VenomitIT\bin\System.Net.Http.Formatting.xml
+F:\My Client\Steven Powell\CMS\VenomitIT\VenomitIT\bin\System.Web.Helpers.xml
+F:\My Client\Steven Powell\CMS\VenomitIT\VenomitIT\bin\System.Web.Http.xml
+F:\My Client\Steven Powell\CMS\VenomitIT\VenomitIT\bin\System.Web.Http.WebHost.xml
+F:\My Client\Steven Powell\CMS\VenomitIT\VenomitIT\bin\System.Web.Mvc.xml
+F:\My Client\Steven Powell\CMS\VenomitIT\VenomitIT\bin\System.Web.Razor.xml
+F:\My Client\Steven Powell\CMS\VenomitIT\VenomitIT\bin\System.Web.WebPages.xml
+F:\My Client\Steven Powell\CMS\VenomitIT\VenomitIT\bin\System.Web.WebPages.Deployment.xml
+F:\My Client\Steven Powell\CMS\VenomitIT\VenomitIT\bin\System.Web.WebPages.Razor.xml
+F:\My Client\Steven Powell\CMS\VenomitIT\VenomitIT\obj\Debug\VenomitIT.csprojResolveAssemblyReference.cache
+F:\My Client\Steven Powell\CMS\VenomitIT\VenomitIT\obj\Debug\VenomitIT.dll
+F:\My Client\Steven Powell\CMS\VenomitIT\VenomitIT\obj\Debug\VenomitIT.pdb
+H:\Anil\VenomitIT\26-1\VenomitIT\VenomitIT\bin\VenomitIT.dll
+H:\Anil\VenomitIT\26-1\VenomitIT\VenomitIT\bin\VenomitIT.pdb
+H:\Anil\VenomitIT\26-1\VenomitIT\VenomitIT\bin\Microsoft.Web.Infrastructure.dll
+H:\Anil\VenomitIT\26-1\VenomitIT\VenomitIT\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+H:\Anil\VenomitIT\26-1\VenomitIT\VenomitIT\bin\Newtonsoft.Json.dll
+H:\Anil\VenomitIT\26-1\VenomitIT\VenomitIT\bin\System.Net.Http.Formatting.dll
+H:\Anil\VenomitIT\26-1\VenomitIT\VenomitIT\bin\System.Web.Helpers.dll
+H:\Anil\VenomitIT\26-1\VenomitIT\VenomitIT\bin\System.Web.Http.dll
+H:\Anil\VenomitIT\26-1\VenomitIT\VenomitIT\bin\System.Web.Http.WebHost.dll
+H:\Anil\VenomitIT\26-1\VenomitIT\VenomitIT\bin\System.Web.Mvc.dll
+H:\Anil\VenomitIT\26-1\VenomitIT\VenomitIT\bin\System.Web.Razor.dll
+H:\Anil\VenomitIT\26-1\VenomitIT\VenomitIT\bin\System.Web.WebPages.Deployment.dll
+H:\Anil\VenomitIT\26-1\VenomitIT\VenomitIT\bin\System.Web.WebPages.dll
+H:\Anil\VenomitIT\26-1\VenomitIT\VenomitIT\bin\System.Web.WebPages.Razor.dll
+H:\Anil\VenomitIT\26-1\VenomitIT\VenomitIT\bin\VenomitIT.BLL.dll
+H:\Anil\VenomitIT\26-1\VenomitIT\VenomitIT\bin\VenomitIT.Common.dll
+H:\Anil\VenomitIT\26-1\VenomitIT\VenomitIT\bin\VenomitIT.DAL.dll
+H:\Anil\VenomitIT\26-1\VenomitIT\VenomitIT\bin\VenomitIT.BLL.pdb
+H:\Anil\VenomitIT\26-1\VenomitIT\VenomitIT\bin\VenomitIT.Common.pdb
+H:\Anil\VenomitIT\26-1\VenomitIT\VenomitIT\bin\VenomitIT.DAL.pdb
+H:\Anil\VenomitIT\26-1\VenomitIT\VenomitIT\bin\Newtonsoft.Json.xml
+H:\Anil\VenomitIT\26-1\VenomitIT\VenomitIT\bin\System.Net.Http.Formatting.xml
+H:\Anil\VenomitIT\26-1\VenomitIT\VenomitIT\bin\System.Web.Helpers.xml
+H:\Anil\VenomitIT\26-1\VenomitIT\VenomitIT\bin\System.Web.Http.xml
+H:\Anil\VenomitIT\26-1\VenomitIT\VenomitIT\bin\System.Web.Http.WebHost.xml
+H:\Anil\VenomitIT\26-1\VenomitIT\VenomitIT\bin\System.Web.Mvc.xml
+H:\Anil\VenomitIT\26-1\VenomitIT\VenomitIT\bin\System.Web.Razor.xml
+H:\Anil\VenomitIT\26-1\VenomitIT\VenomitIT\bin\System.Web.WebPages.xml
+H:\Anil\VenomitIT\26-1\VenomitIT\VenomitIT\bin\System.Web.WebPages.Deployment.xml
+H:\Anil\VenomitIT\26-1\VenomitIT\VenomitIT\bin\System.Web.WebPages.Razor.xml
+H:\Anil\VenomitIT\26-1\VenomitIT\VenomitIT\obj\Debug\VenomitIT.csprojResolveAssemblyReference.cache
+H:\Anil\VenomitIT\26-1\VenomitIT\VenomitIT\obj\Debug\VenomitIT.dll
+H:\Anil\VenomitIT\26-1\VenomitIT\VenomitIT\obj\Debug\VenomitIT.pdb
+F:\My Client\Steven Powell\CMS\27-1\VenomitIT\VenomitIT\bin\VenomitIT.dll
+F:\My Client\Steven Powell\CMS\27-1\VenomitIT\VenomitIT\bin\VenomitIT.pdb
+F:\My Client\Steven Powell\CMS\27-1\VenomitIT\VenomitIT\bin\Microsoft.Web.Infrastructure.dll
+F:\My Client\Steven Powell\CMS\27-1\VenomitIT\VenomitIT\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+F:\My Client\Steven Powell\CMS\27-1\VenomitIT\VenomitIT\bin\Newtonsoft.Json.dll
+F:\My Client\Steven Powell\CMS\27-1\VenomitIT\VenomitIT\bin\System.Net.Http.Formatting.dll
+F:\My Client\Steven Powell\CMS\27-1\VenomitIT\VenomitIT\bin\System.Web.Helpers.dll
+F:\My Client\Steven Powell\CMS\27-1\VenomitIT\VenomitIT\bin\System.Web.Http.dll
+F:\My Client\Steven Powell\CMS\27-1\VenomitIT\VenomitIT\bin\System.Web.Http.WebHost.dll
+F:\My Client\Steven Powell\CMS\27-1\VenomitIT\VenomitIT\bin\System.Web.Mvc.dll
+F:\My Client\Steven Powell\CMS\27-1\VenomitIT\VenomitIT\bin\System.Web.Razor.dll
+F:\My Client\Steven Powell\CMS\27-1\VenomitIT\VenomitIT\bin\System.Web.WebPages.Deployment.dll
+F:\My Client\Steven Powell\CMS\27-1\VenomitIT\VenomitIT\bin\System.Web.WebPages.dll
+F:\My Client\Steven Powell\CMS\27-1\VenomitIT\VenomitIT\bin\System.Web.WebPages.Razor.dll
+F:\My Client\Steven Powell\CMS\27-1\VenomitIT\VenomitIT\bin\VenomitIT.BLL.dll
+F:\My Client\Steven Powell\CMS\27-1\VenomitIT\VenomitIT\bin\VenomitIT.Common.dll
+F:\My Client\Steven Powell\CMS\27-1\VenomitIT\VenomitIT\bin\VenomitIT.DAL.dll
+F:\My Client\Steven Powell\CMS\27-1\VenomitIT\VenomitIT\bin\VenomitIT.BLL.pdb
+F:\My Client\Steven Powell\CMS\27-1\VenomitIT\VenomitIT\bin\VenomitIT.Common.pdb
+F:\My Client\Steven Powell\CMS\27-1\VenomitIT\VenomitIT\bin\VenomitIT.DAL.pdb
+F:\My Client\Steven Powell\CMS\27-1\VenomitIT\VenomitIT\bin\Newtonsoft.Json.xml
+F:\My Client\Steven Powell\CMS\27-1\VenomitIT\VenomitIT\bin\System.Net.Http.Formatting.xml
+F:\My Client\Steven Powell\CMS\27-1\VenomitIT\VenomitIT\bin\System.Web.Helpers.xml
+F:\My Client\Steven Powell\CMS\27-1\VenomitIT\VenomitIT\bin\System.Web.Http.xml
+F:\My Client\Steven Powell\CMS\27-1\VenomitIT\VenomitIT\bin\System.Web.Http.WebHost.xml
+F:\My Client\Steven Powell\CMS\27-1\VenomitIT\VenomitIT\bin\System.Web.Mvc.xml
+F:\My Client\Steven Powell\CMS\27-1\VenomitIT\VenomitIT\bin\System.Web.Razor.xml
+F:\My Client\Steven Powell\CMS\27-1\VenomitIT\VenomitIT\bin\System.Web.WebPages.xml
+F:\My Client\Steven Powell\CMS\27-1\VenomitIT\VenomitIT\bin\System.Web.WebPages.Deployment.xml
+F:\My Client\Steven Powell\CMS\27-1\VenomitIT\VenomitIT\bin\System.Web.WebPages.Razor.xml
+F:\My Client\Steven Powell\CMS\27-1\VenomitIT\VenomitIT\obj\Debug\VenomitIT.csprojResolveAssemblyReference.cache
+F:\My Client\Steven Powell\CMS\27-1\VenomitIT\VenomitIT\obj\Debug\VenomitIT.dll
+F:\My Client\Steven Powell\CMS\27-1\VenomitIT\VenomitIT\obj\Debug\VenomitIT.pdb
+H:\Anil\VenomitIT\29-1\VenomitIT\VenomitIT\bin\VenomitIT.dll
+H:\Anil\VenomitIT\29-1\VenomitIT\VenomitIT\bin\VenomitIT.pdb
+H:\Anil\VenomitIT\29-1\VenomitIT\VenomitIT\bin\Microsoft.Web.Infrastructure.dll
+H:\Anil\VenomitIT\29-1\VenomitIT\VenomitIT\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+H:\Anil\VenomitIT\29-1\VenomitIT\VenomitIT\bin\Newtonsoft.Json.dll
+H:\Anil\VenomitIT\29-1\VenomitIT\VenomitIT\bin\System.Net.Http.Formatting.dll
+H:\Anil\VenomitIT\29-1\VenomitIT\VenomitIT\bin\System.Web.Helpers.dll
+H:\Anil\VenomitIT\29-1\VenomitIT\VenomitIT\bin\System.Web.Http.dll
+H:\Anil\VenomitIT\29-1\VenomitIT\VenomitIT\bin\System.Web.Http.WebHost.dll
+H:\Anil\VenomitIT\29-1\VenomitIT\VenomitIT\bin\System.Web.Mvc.dll
+H:\Anil\VenomitIT\29-1\VenomitIT\VenomitIT\bin\System.Web.Razor.dll
+H:\Anil\VenomitIT\29-1\VenomitIT\VenomitIT\bin\System.Web.WebPages.Deployment.dll
+H:\Anil\VenomitIT\29-1\VenomitIT\VenomitIT\bin\System.Web.WebPages.dll
+H:\Anil\VenomitIT\29-1\VenomitIT\VenomitIT\bin\System.Web.WebPages.Razor.dll
+H:\Anil\VenomitIT\29-1\VenomitIT\VenomitIT\bin\VenomitIT.BLL.dll
+H:\Anil\VenomitIT\29-1\VenomitIT\VenomitIT\bin\VenomitIT.Common.dll
+H:\Anil\VenomitIT\29-1\VenomitIT\VenomitIT\bin\VenomitIT.DAL.dll
+H:\Anil\VenomitIT\29-1\VenomitIT\VenomitIT\bin\VenomitIT.BLL.pdb
+H:\Anil\VenomitIT\29-1\VenomitIT\VenomitIT\bin\VenomitIT.Common.pdb
+H:\Anil\VenomitIT\29-1\VenomitIT\VenomitIT\bin\VenomitIT.DAL.pdb
+H:\Anil\VenomitIT\29-1\VenomitIT\VenomitIT\bin\Newtonsoft.Json.xml
+H:\Anil\VenomitIT\29-1\VenomitIT\VenomitIT\bin\System.Net.Http.Formatting.xml
+H:\Anil\VenomitIT\29-1\VenomitIT\VenomitIT\bin\System.Web.Helpers.xml
+H:\Anil\VenomitIT\29-1\VenomitIT\VenomitIT\bin\System.Web.Http.xml
+H:\Anil\VenomitIT\29-1\VenomitIT\VenomitIT\bin\System.Web.Http.WebHost.xml
+H:\Anil\VenomitIT\29-1\VenomitIT\VenomitIT\bin\System.Web.Mvc.xml
+H:\Anil\VenomitIT\29-1\VenomitIT\VenomitIT\bin\System.Web.Razor.xml
+H:\Anil\VenomitIT\29-1\VenomitIT\VenomitIT\bin\System.Web.WebPages.xml
+H:\Anil\VenomitIT\29-1\VenomitIT\VenomitIT\bin\System.Web.WebPages.Deployment.xml
+H:\Anil\VenomitIT\29-1\VenomitIT\VenomitIT\bin\System.Web.WebPages.Razor.xml
+H:\Anil\VenomitIT\29-1\VenomitIT\VenomitIT\obj\Debug\VenomitIT.csprojResolveAssemblyReference.cache
+H:\Anil\VenomitIT\29-1\VenomitIT\VenomitIT\obj\Debug\VenomitIT.dll
+H:\Anil\VenomitIT\29-1\VenomitIT\VenomitIT\obj\Debug\VenomitIT.pdb

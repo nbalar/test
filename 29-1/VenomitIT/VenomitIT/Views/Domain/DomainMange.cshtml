@@ -1,0 +1,29 @@
+﻿@using VenomitIT.Common;
+@using VenomitIT.BLL;
+@model VenomitIT.DAL.EditDomainModel
+@{
+    ViewBag.Title = "DomainMange";
+}
+<div class="row">
+<div class="span3">
+      @{Html.RenderAction("Leftnav", "Common",Model.DomainId);}
+</div>
+<div class="pdetail_left_mid pdetail_left_mid_02 span9">
+    @Html.HiddenFor(model => model.DomainId)
+    <div class="p_detail_btn_box p_detail_btn_box_01" style="padding: 12px 0;">
+        <div class="left_box">
+            <a href="@VenomitIT.Common.NavigationURL.ManageDomain"  class="new_r_btn"> Back Domain</a>
+
+        </div>
+        <div class="right_box">
+            <label>@Model.DomainName : 
+            <a href="@Model.DomainURL" target="_blank">(View)</a></label>
+        </div>
+    </div>
+    <div>
+        
+        @*@Html.Partial("~/Views/Common/Leftnav.cshtml", Model)*@
+        
+     </div>
+    </div>
+</div>

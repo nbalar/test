@@ -1,0 +1,61 @@
+﻿@using VenomitIT.Common;
+@using VenomitIT.BLL;
+@model VenomitIT.DAL.EditAboutUsModel
+@{
+    ViewBag.Title = "EditAbout";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="span3">
+            @{Html.RenderAction("Leftnav", "Common", new { @DomainId = Model.DomainId });}
+        </div>
+        <div class="span9">
+            <form method="post" id="frmaboutus">
+                @Html.HiddenFor(model => model.DomainId)
+                @Html.HiddenFor(model => model.AboutId)
+                <div class="form_area form_area_01">
+                    <ul>
+
+                        <li>
+                            <label>
+                                Title :</label>
+                            @Html.TextBoxFor(x => x.Title)
+                            @Html.ValidationMessageFor(x => x.Title)
+                        </li>
+                        <li>
+                            <label>Description :</label>
+                         <section id="editor">
+                              @*<div id='edit' style="margin-top: 30px;">
+
+                              </div>*@
+                                  @Html.TextArea(name: "Description")
+                          </section>
+                        </li>
+                        <li>
+                            <label>
+                                Is Active :</label>
+                            @Html.CheckBoxFor(model => model.IsActive)
+                        </li>
+                    </ul>
+                </div>
+                <div class="btn_box23">
+                    <input type="submit" value="" id="btnSave" class="save_btn" />
+                    <div class="p_detail_btn_box p_detail_btn_box_01" style="width: 137px !important;">
+                        <div class="left_box">
+                            <input type="button" value="" id="btncancel" onclick="Back()" class="cancel_btn" />
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </form>
+            <script>
+                function Back() {
+                    window.location = '@VenomitIT.Common.NavigationURL.ManageAbout' + '@Model.DomainId';
+            }
+            </script>
+        </div>
+    </div>
+</div>

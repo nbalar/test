@@ -1,0 +1,68 @@
+﻿@using VenomitIT.Common;
+@using VenomitIT.BLL;
+@model VenomitIT.DAL.EditAboutDetailsModel
+@{
+    ViewBag.Title = "EditAboutContent";
+}
+<div class="container">
+    <div class="row">
+    <div class="span3">
+        @{Html.RenderAction("Leftnav", "Common",new {@DomainId= Model.DomainId});}
+    </div>
+    <div class="span9">
+        <form method="post" id="frmaboutdetails" enctype="multipart/form-data">
+            @Html.HiddenFor(model => model.AboutDetailsId)
+            @Html.HiddenFor(model => model.AboutId)
+            @Html.HiddenFor(model => model.DomainId)
+            <div class="form_area form_area_01">
+                <ul>
+
+                    <li>
+                        <label>
+                            Title :</label>
+                        @Html.TextBoxFor(x => x.Title)
+                        @Html.ValidationMessageFor(x => x.Title)
+                    </li>
+                    <li>
+                        <label>
+                            Description :</label>
+                        @Html.TextAreaFor(x => x.Description)
+                        @Html.ValidationMessageFor(x => x.Description)
+                    </li>
+                     <li>
+                        <label>
+                            About Image :</label>
+                        <input type="file" name="photo" id="uploadphoto" />
+                        @if (Model.AboutDetailsId > 0)
+                        {                        
+                            <img src="@Model.AboutImage"  width="50" height="50"/>
+                        }
+                        @Html.ValidationMessageFor(model => model.AboutImage)
+                    </li>
+                    <li>
+                        <label>
+                            Is Active :</label>
+                        @Html.CheckBoxFor(model => model.IsActive)
+                    </li>
+                </ul>
+            </div>
+            <div class="btn_box23">
+                <input type="submit" value="" id="btnSave" class="save_btn" />
+                <div class="p_detail_btn_box p_detail_btn_box_01" style="width: 137px !important;">
+                    <div class="left_box">
+                        <input type="button" value="" id="btncancel" onclick="Back()" class="cancel_btn" />
+                    </div>
+
+
+
+                </div>
+            </div>
+        </form>
+        <script>
+            function Back() {
+                window.location = '@VenomitIT.Common.NavigationURL.ManageAboutContent' + '@Model.AboutId';
+    }
+        </script>
+    </div>
+</div>
+</div>

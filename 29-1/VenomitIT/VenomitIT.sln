@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VenomitIT", "VenomitIT\VenomitIT.csproj", "{C04E4A00-A81B-4014-824B-342181E83783}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VenomitIT.BLL", "VenomitIT.BLL\VenomitIT.BLL.csproj", "{78802E81-3105-4D15-BAA9-6D27787B7049}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VenomitIT.Common", "VenomitIT.Common\VenomitIT.Common.csproj", "{AEA96762-0520-4CEC-AA21-7DB9E65C3A87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VenomitIT.DAL", "VenomitIT.DAL\VenomitIT.DAL.csproj", "{61B581E7-7B68-4D85-9833-0DE232BF7F29}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C04E4A00-A81B-4014-824B-342181E83783}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C04E4A00-A81B-4014-824B-342181E83783}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C04E4A00-A81B-4014-824B-342181E83783}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C04E4A00-A81B-4014-824B-342181E83783}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78802E81-3105-4D15-BAA9-6D27787B7049}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78802E81-3105-4D15-BAA9-6D27787B7049}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78802E81-3105-4D15-BAA9-6D27787B7049}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78802E81-3105-4D15-BAA9-6D27787B7049}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEA96762-0520-4CEC-AA21-7DB9E65C3A87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEA96762-0520-4CEC-AA21-7DB9E65C3A87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEA96762-0520-4CEC-AA21-7DB9E65C3A87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEA96762-0520-4CEC-AA21-7DB9E65C3A87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61B581E7-7B68-4D85-9833-0DE232BF7F29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61B581E7-7B68-4D85-9833-0DE232BF7F29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61B581E7-7B68-4D85-9833-0DE232BF7F29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61B581E7-7B68-4D85-9833-0DE232BF7F29}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

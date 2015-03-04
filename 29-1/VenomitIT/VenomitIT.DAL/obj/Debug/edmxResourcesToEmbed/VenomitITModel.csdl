@@ -1,0 +1,462 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="cms_venomitModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="cms_venomitEntities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="AboutUs" EntityType="cms_venomitModel.AboutU" />
+    <EntitySet Name="AboutUsDetails" EntityType="cms_venomitModel.AboutUsDetail" />
+    <EntitySet Name="Domain_Master" EntityType="cms_venomitModel.Domain_Master" />
+    <EntitySet Name="Pricing_Master" EntityType="cms_venomitModel.Pricing_Master" />
+    <EntitySet Name="PricingDetails" EntityType="cms_venomitModel.PricingDetail" />
+    <EntitySet Name="Services" EntityType="cms_venomitModel.Service" />
+    <EntitySet Name="Slider_Details" EntityType="cms_venomitModel.Slider_Details" />
+    <EntitySet Name="Slider_Master" EntityType="cms_venomitModel.Slider_Master" />
+    <EntitySet Name="Testimonials" EntityType="cms_venomitModel.Testimonial" />
+    <EntitySet Name="User_Master" EntityType="cms_venomitModel.User_Master" />
+    <AssociationSet Name="FK_AboutUs_Domain_Master" Association="cms_venomitModel.FK_AboutUs_Domain_Master">
+      <End Role="Domain_Master" EntitySet="Domain_Master" />
+      <End Role="AboutU" EntitySet="AboutUs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AboutUsDetails_AboutUs" Association="cms_venomitModel.FK_AboutUsDetails_AboutUs">
+      <End Role="AboutU" EntitySet="AboutUs" />
+      <End Role="AboutUsDetail" EntitySet="AboutUsDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Pricing_Master_Domain_Master" Association="cms_venomitModel.FK_Pricing_Master_Domain_Master">
+      <End Role="Domain_Master" EntitySet="Domain_Master" />
+      <End Role="Pricing_Master" EntitySet="Pricing_Master" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Services_Domain_Master" Association="cms_venomitModel.FK_Services_Domain_Master">
+      <End Role="Domain_Master" EntitySet="Domain_Master" />
+      <End Role="Service" EntitySet="Services" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Slider_Master_Domain_Master" Association="cms_venomitModel.FK_Slider_Master_Domain_Master">
+      <End Role="Domain_Master" EntitySet="Domain_Master" />
+      <End Role="Slider_Master" EntitySet="Slider_Master" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Testimonials_Domain_Master" Association="cms_venomitModel.FK_Testimonials_Domain_Master">
+      <End Role="Domain_Master" EntitySet="Domain_Master" />
+      <End Role="Testimonial" EntitySet="Testimonials" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PricingDetails_Pricing_Master" Association="cms_venomitModel.FK_PricingDetails_Pricing_Master">
+      <End Role="Pricing_Master" EntitySet="Pricing_Master" />
+      <End Role="PricingDetail" EntitySet="PricingDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Slider_Details_Slider_Master" Association="cms_venomitModel.FK_Slider_Details_Slider_Master">
+      <End Role="Slider_Master" EntitySet="Slider_Master" />
+      <End Role="Slider_Details" EntitySet="Slider_Details" />
+    </AssociationSet>
+    <EntitySet Name="DataCenters" EntityType="cms_venomitModel.DataCenter" />
+    <EntitySet Name="DataCenterDetails" EntityType="cms_venomitModel.DataCenterDetail" />
+    <AssociationSet Name="FK_DataCenter_Domain_Master" Association="cms_venomitModel.FK_DataCenter_Domain_Master">
+      <End Role="Domain_Master" EntitySet="Domain_Master" />
+      <End Role="DataCenter" EntitySet="DataCenters" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DataCenterDetails_DataCenter" Association="cms_venomitModel.FK_DataCenterDetails_DataCenter">
+      <End Role="DataCenter" EntitySet="DataCenters" />
+      <End Role="DataCenterDetail" EntitySet="DataCenterDetails" />
+    </AssociationSet>
+    <EntitySet Name="CustomerTestimonails" EntityType="cms_venomitModel.CustomerTestimonail" />
+    <EntitySet Name="WhyWes" EntityType="cms_venomitModel.WhyWe" />
+    <AssociationSet Name="FK_CustomerTestimonails_Domain_Master" Association="cms_venomitModel.FK_CustomerTestimonails_Domain_Master">
+      <End Role="Domain_Master" EntitySet="Domain_Master" />
+      <End Role="CustomerTestimonail" EntitySet="CustomerTestimonails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_WhyWe_Domain_Master" Association="cms_venomitModel.FK_WhyWe_Domain_Master">
+      <End Role="Domain_Master" EntitySet="Domain_Master" />
+      <End Role="WhyWe" EntitySet="WhyWes" />
+    </AssociationSet>
+    <EntitySet Name="Backup_Master" EntityType="cms_venomitModel.Backup_Master" />
+    <AssociationSet Name="FK_Backup_Master_Domain_Master" Association="cms_venomitModel.FK_Backup_Master_Domain_Master">
+      <End Role="Domain_Master" EntitySet="Domain_Master" />
+      <End Role="Backup_Master" EntitySet="Backup_Master" />
+    </AssociationSet>
+    <EntitySet Name="ContactDetails" EntityType="cms_venomitModel.ContactDetail" />
+    <AssociationSet Name="FK_ContactDetails_Domain_Master" Association="cms_venomitModel.FK_ContactDetails_Domain_Master">
+      <End Role="Domain_Master" EntitySet="Domain_Master" />
+      <End Role="ContactDetail" EntitySet="ContactDetails" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="AboutU">
+    <Key>
+      <PropertyRef Name="AboutId" />
+    </Key>
+    <Property Type="Int32" Name="AboutId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="DomainId" Nullable="false" />
+    <Property Type="String" Name="Title" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Description" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="IsActive" />
+    <NavigationProperty Name="Domain_Master" Relationship="cms_venomitModel.FK_AboutUs_Domain_Master" FromRole="AboutU" ToRole="Domain_Master" />
+    <NavigationProperty Name="AboutUsDetails" Relationship="cms_venomitModel.FK_AboutUsDetails_AboutUs" FromRole="AboutU" ToRole="AboutUsDetail" />
+  </EntityType>
+  <EntityType Name="AboutUsDetail">
+    <Key>
+      <PropertyRef Name="AboutDetailsId" />
+    </Key>
+    <Property Type="Int32" Name="AboutDetailsId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="AboutId" Nullable="false" />
+    <Property Type="String" Name="AboutImage" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Title" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Description" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="IsActive" />
+    <NavigationProperty Name="AboutU" Relationship="cms_venomitModel.FK_AboutUsDetails_AboutUs" FromRole="AboutUsDetail" ToRole="AboutU" />
+  </EntityType>
+  <EntityType Name="Domain_Master">
+    <Key>
+      <PropertyRef Name="DomainId" />
+    </Key>
+    <Property Type="Int32" Name="DomainId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="DomainName" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="DomainURL" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="IsActive" />
+    <NavigationProperty Name="AboutUs" Relationship="cms_venomitModel.FK_AboutUs_Domain_Master" FromRole="Domain_Master" ToRole="AboutU" />
+    <NavigationProperty Name="Pricing_Master" Relationship="cms_venomitModel.FK_Pricing_Master_Domain_Master" FromRole="Domain_Master" ToRole="Pricing_Master" />
+    <NavigationProperty Name="Services" Relationship="cms_venomitModel.FK_Services_Domain_Master" FromRole="Domain_Master" ToRole="Service" />
+    <NavigationProperty Name="Slider_Master" Relationship="cms_venomitModel.FK_Slider_Master_Domain_Master" FromRole="Domain_Master" ToRole="Slider_Master" />
+    <NavigationProperty Name="Testimonials" Relationship="cms_venomitModel.FK_Testimonials_Domain_Master" FromRole="Domain_Master" ToRole="Testimonial" />
+    <NavigationProperty Name="DataCenters" Relationship="cms_venomitModel.FK_DataCenter_Domain_Master" FromRole="Domain_Master" ToRole="DataCenter" />
+    <NavigationProperty Name="CustomerTestimonails" Relationship="cms_venomitModel.FK_CustomerTestimonails_Domain_Master" FromRole="Domain_Master" ToRole="CustomerTestimonail" />
+    <NavigationProperty Name="WhyWes" Relationship="cms_venomitModel.FK_WhyWe_Domain_Master" FromRole="Domain_Master" ToRole="WhyWe" />
+    <NavigationProperty Name="Backup_Master" Relationship="cms_venomitModel.FK_Backup_Master_Domain_Master" FromRole="Domain_Master" ToRole="Backup_Master" />
+    <NavigationProperty Name="ContactDetails" Relationship="cms_venomitModel.FK_ContactDetails_Domain_Master" FromRole="Domain_Master" ToRole="ContactDetail" />
+  </EntityType>
+  <EntityType Name="Pricing_Master">
+    <Key>
+      <PropertyRef Name="PricingId" />
+    </Key>
+    <Property Type="Int32" Name="PricingId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="DomainId" Nullable="false" />
+    <Property Type="String" Name="Title" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="PricingDescription" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="IsActive" />
+    <NavigationProperty Name="Domain_Master" Relationship="cms_venomitModel.FK_Pricing_Master_Domain_Master" FromRole="Pricing_Master" ToRole="Domain_Master" />
+    <NavigationProperty Name="PricingDetails" Relationship="cms_venomitModel.FK_PricingDetails_Pricing_Master" FromRole="Pricing_Master" ToRole="PricingDetail" />
+  </EntityType>
+  <EntityType Name="PricingDetail">
+    <Key>
+      <PropertyRef Name="PricingDetailsId" />
+    </Key>
+    <Property Type="Int32" Name="PricingDetailsId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="PricingId" Nullable="false" />
+    <Property Type="String" Name="Description" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="IsActive" />
+    <NavigationProperty Name="Pricing_Master" Relationship="cms_venomitModel.FK_PricingDetails_Pricing_Master" FromRole="PricingDetail" ToRole="Pricing_Master" />
+  </EntityType>
+  <EntityType Name="Service">
+    <Key>
+      <PropertyRef Name="ServiceId" />
+    </Key>
+    <Property Type="Int32" Name="ServiceId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="DomainId" Nullable="false" />
+    <Property Type="String" Name="Title" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ServiceDescription" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="IsActive" />
+    <NavigationProperty Name="Domain_Master" Relationship="cms_venomitModel.FK_Services_Domain_Master" FromRole="Service" ToRole="Domain_Master" />
+  </EntityType>
+  <EntityType Name="Slider_Details">
+    <Key>
+      <PropertyRef Name="SliderDetailsId" />
+    </Key>
+    <Property Type="Int32" Name="SliderDetailsId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="SliderId" Nullable="false" />
+    <Property Type="String" Name="Title" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Description" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="IsActive" />
+    <NavigationProperty Name="Slider_Master" Relationship="cms_venomitModel.FK_Slider_Details_Slider_Master" FromRole="Slider_Details" ToRole="Slider_Master" />
+  </EntityType>
+  <EntityType Name="Slider_Master">
+    <Key>
+      <PropertyRef Name="SliderId" />
+    </Key>
+    <Property Type="Int32" Name="SliderId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="DomainId" Nullable="false" />
+    <Property Type="String" Name="SliderImage" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="IsActive" />
+    <NavigationProperty Name="Domain_Master" Relationship="cms_venomitModel.FK_Slider_Master_Domain_Master" FromRole="Slider_Master" ToRole="Domain_Master" />
+    <NavigationProperty Name="Slider_Details" Relationship="cms_venomitModel.FK_Slider_Details_Slider_Master" FromRole="Slider_Master" ToRole="Slider_Details" />
+  </EntityType>
+  <EntityType Name="Testimonial">
+    <Key>
+      <PropertyRef Name="TestimonialId" />
+    </Key>
+    <Property Type="Int32" Name="TestimonialId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="DomainId" Nullable="false" />
+    <Property Type="String" Name="Description" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Author" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="IsActive" />
+    <NavigationProperty Name="Domain_Master" Relationship="cms_venomitModel.FK_Testimonials_Domain_Master" FromRole="Testimonial" ToRole="Domain_Master" />
+  </EntityType>
+  <EntityType Name="User_Master">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Type="Int32" Name="UserId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Username" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Password" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="FirstName" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="LastName" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="UserType" />
+    <Property Type="String" Name="Email" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="CreatedBy" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="CreatedDate" Precision="3" />
+    <Property Type="String" Name="ModifiedBy" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="ModifiedDate" Precision="3" />
+  </EntityType>
+  <Association Name="FK_AboutUs_Domain_Master">
+    <End Type="cms_venomitModel.Domain_Master" Role="Domain_Master" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="cms_venomitModel.AboutU" Role="AboutU" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Domain_Master">
+        <PropertyRef Name="DomainId" />
+      </Principal>
+      <Dependent Role="AboutU">
+        <PropertyRef Name="DomainId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AboutUsDetails_AboutUs">
+    <End Type="cms_venomitModel.AboutU" Role="AboutU" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="cms_venomitModel.AboutUsDetail" Role="AboutUsDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AboutU">
+        <PropertyRef Name="AboutId" />
+      </Principal>
+      <Dependent Role="AboutUsDetail">
+        <PropertyRef Name="AboutId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Pricing_Master_Domain_Master">
+    <End Type="cms_venomitModel.Domain_Master" Role="Domain_Master" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="cms_venomitModel.Pricing_Master" Role="Pricing_Master" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Domain_Master">
+        <PropertyRef Name="DomainId" />
+      </Principal>
+      <Dependent Role="Pricing_Master">
+        <PropertyRef Name="DomainId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Services_Domain_Master">
+    <End Type="cms_venomitModel.Domain_Master" Role="Domain_Master" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="cms_venomitModel.Service" Role="Service" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Domain_Master">
+        <PropertyRef Name="DomainId" />
+      </Principal>
+      <Dependent Role="Service">
+        <PropertyRef Name="DomainId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Slider_Master_Domain_Master">
+    <End Type="cms_venomitModel.Domain_Master" Role="Domain_Master" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="cms_venomitModel.Slider_Master" Role="Slider_Master" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Domain_Master">
+        <PropertyRef Name="DomainId" />
+      </Principal>
+      <Dependent Role="Slider_Master">
+        <PropertyRef Name="DomainId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Testimonials_Domain_Master">
+    <End Type="cms_venomitModel.Domain_Master" Role="Domain_Master" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="cms_venomitModel.Testimonial" Role="Testimonial" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Domain_Master">
+        <PropertyRef Name="DomainId" />
+      </Principal>
+      <Dependent Role="Testimonial">
+        <PropertyRef Name="DomainId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PricingDetails_Pricing_Master">
+    <End Type="cms_venomitModel.Pricing_Master" Role="Pricing_Master" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="cms_venomitModel.PricingDetail" Role="PricingDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Pricing_Master">
+        <PropertyRef Name="PricingId" />
+      </Principal>
+      <Dependent Role="PricingDetail">
+        <PropertyRef Name="PricingId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Slider_Details_Slider_Master">
+    <End Type="cms_venomitModel.Slider_Master" Role="Slider_Master" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="cms_venomitModel.Slider_Details" Role="Slider_Details" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Slider_Master">
+        <PropertyRef Name="SliderId" />
+      </Principal>
+      <Dependent Role="Slider_Details">
+        <PropertyRef Name="SliderId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="DataCenter">
+    <Key>
+      <PropertyRef Name="DataCenterId" />
+    </Key>
+    <Property Type="Int32" Name="DataCenterId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="DomainId" Nullable="false" />
+    <Property Type="String" Name="Title" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="DataCenterDescription" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="IsActive" />
+    <NavigationProperty Name="Domain_Master" Relationship="cms_venomitModel.FK_DataCenter_Domain_Master" FromRole="DataCenter" ToRole="Domain_Master" />
+    <NavigationProperty Name="DataCenterDetails" Relationship="cms_venomitModel.FK_DataCenterDetails_DataCenter" FromRole="DataCenter" ToRole="DataCenterDetail" />
+  </EntityType>
+  <EntityType Name="DataCenterDetail">
+    <Key>
+      <PropertyRef Name="DataDetailId" />
+    </Key>
+    <Property Type="Int32" Name="DataDetailId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="DataCenterId" Nullable="false" />
+    <Property Type="String" Name="Description" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="IsActive" />
+    <NavigationProperty Name="DataCenter" Relationship="cms_venomitModel.FK_DataCenterDetails_DataCenter" FromRole="DataCenterDetail" ToRole="DataCenter" />
+  </EntityType>
+  <Association Name="FK_DataCenter_Domain_Master">
+    <End Type="cms_venomitModel.Domain_Master" Role="Domain_Master" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="cms_venomitModel.DataCenter" Role="DataCenter" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Domain_Master">
+        <PropertyRef Name="DomainId" />
+      </Principal>
+      <Dependent Role="DataCenter">
+        <PropertyRef Name="DomainId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DataCenterDetails_DataCenter">
+    <End Type="cms_venomitModel.DataCenter" Role="DataCenter" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="cms_venomitModel.DataCenterDetail" Role="DataCenterDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DataCenter">
+        <PropertyRef Name="DataCenterId" />
+      </Principal>
+      <Dependent Role="DataCenterDetail">
+        <PropertyRef Name="DataCenterId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="CustomerTestimonail">
+    <Key>
+      <PropertyRef Name="CustomerId" />
+    </Key>
+    <Property Type="Int32" Name="CustomerId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="DomainId" Nullable="false" />
+    <Property Type="String" Name="Description" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="CustomerImage" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="IsActive" />
+    <NavigationProperty Name="Domain_Master" Relationship="cms_venomitModel.FK_CustomerTestimonails_Domain_Master" FromRole="CustomerTestimonail" ToRole="Domain_Master" />
+  </EntityType>
+  <EntityType Name="WhyWe">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="DomainId" Nullable="false" />
+    <Property Type="String" Name="Title" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Description" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="IsActive" />
+    <NavigationProperty Name="Domain_Master" Relationship="cms_venomitModel.FK_WhyWe_Domain_Master" FromRole="WhyWe" ToRole="Domain_Master" />
+  </EntityType>
+  <Association Name="FK_CustomerTestimonails_Domain_Master">
+    <End Type="cms_venomitModel.Domain_Master" Role="Domain_Master" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="cms_venomitModel.CustomerTestimonail" Role="CustomerTestimonail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Domain_Master">
+        <PropertyRef Name="DomainId" />
+      </Principal>
+      <Dependent Role="CustomerTestimonail">
+        <PropertyRef Name="DomainId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_WhyWe_Domain_Master">
+    <End Type="cms_venomitModel.Domain_Master" Role="Domain_Master" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="cms_venomitModel.WhyWe" Role="WhyWe" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Domain_Master">
+        <PropertyRef Name="DomainId" />
+      </Principal>
+      <Dependent Role="WhyWe">
+        <PropertyRef Name="DomainId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="Backup_Master">
+    <Key>
+      <PropertyRef Name="BackupId" />
+    </Key>
+    <Property Type="Int32" Name="BackupId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="DomainId" Nullable="false" />
+    <Property Type="String" Name="BackupImage" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="IsActive" />
+    <NavigationProperty Name="Domain_Master" Relationship="cms_venomitModel.FK_Backup_Master_Domain_Master" FromRole="Backup_Master" ToRole="Domain_Master" />
+  </EntityType>
+  <Association Name="FK_Backup_Master_Domain_Master">
+    <End Type="cms_venomitModel.Domain_Master" Role="Domain_Master" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="cms_venomitModel.Backup_Master" Role="Backup_Master" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Domain_Master">
+        <PropertyRef Name="DomainId" />
+      </Principal>
+      <Dependent Role="Backup_Master">
+        <PropertyRef Name="DomainId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="ContactDetail">
+    <Key>
+      <PropertyRef Name="ContactId" />
+    </Key>
+    <Property Type="Int32" Name="ContactId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="DomainId" Nullable="false" />
+    <Property Type="String" Name="Description" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="IsActive" />
+    <NavigationProperty Name="Domain_Master" Relationship="cms_venomitModel.FK_ContactDetails_Domain_Master" FromRole="ContactDetail" ToRole="Domain_Master" />
+  </EntityType>
+  <Association Name="FK_ContactDetails_Domain_Master">
+    <End Type="cms_venomitModel.Domain_Master" Role="Domain_Master" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="cms_venomitModel.ContactDetail" Role="ContactDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Domain_Master">
+        <PropertyRef Name="DomainId" />
+      </Principal>
+      <Dependent Role="ContactDetail">
+        <PropertyRef Name="DomainId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

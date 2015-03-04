@@ -1,0 +1,132 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>VenomIT-@ViewBag.Title</title>
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href='@string.Concat(VenomitIT.Common.ConfigHelper.SiteCssPath, "style.css", VenomitIT.Common.ConfigHelper.Version)' rel="stylesheet" type="text/css" />
+    <link href='@string.Concat(VenomitIT.Common.ConfigHelper.SiteCssPath, "bootstrap.css", VenomitIT.Common.ConfigHelper.Version)' rel="stylesheet" type="text/css" />
+    <link href='@string.Concat(VenomitIT.Common.ConfigHelper.SiteCssPath, "bootstrap-responsive.css", VenomitIT.Common.ConfigHelper.Version)' rel="stylesheet" type="text/css" />
+    <script src='@string.Concat(VenomitIT.Common.ConfigHelper.JavaScriptPath, "jquery-1.9.1.js", VenomitIT.Common.ConfigHelper.Version)' type="text/javascript"></script>
+    <script src='@string.Concat(VenomitIT.Common.ConfigHelper.JavaScriptPath, "bootstrap.js", VenomitIT.Common.ConfigHelper.Version)' type="text/javascript"></script>
+    <script src='@string.Concat(VenomitIT.Common.ConfigHelper.JavaScriptPath, "jquery-1.10.2.min.js", VenomitIT.Common.ConfigHelper.Version)' type="text/javascript"></script>
+    <script src='@string.Concat(VenomitIT.Common.ConfigHelper.JavaScriptPath, "jquery-te-1.4.0.min.js", VenomitIT.Common.ConfigHelper.Version)' type="text/javascript"></script>
+    <script language="javascript" type="text/javascript">
+        $(function () {
+            $("table tr td:last-child").css("border-right", "none")
+        })
+    </script>
+</head>
+<body class="main_body">
+
+    <header id="header">
+        <div class="container">
+            <div class="row-fluid">
+                <div class="header-top">
+                    <div class="span12">
+                        <div class="login_r_detail login_r_detail_01">
+                            <div class="welcome">
+                                Welcome <b>
+                                    <label>@VenomitIT.Common.CookieHelper.Fullname</label>
+                                </b>
+                               
+                            </div>
+                            <div class="pull-right">
+                                <div class="time">
+
+                                    <a href="@VenomitIT.Common.NavigationURL.ChangePasswordPage">Change Password</a>
+                                </div>
+                                <div class="date">
+                                    Date :
+                              <label>@System.DateTime.Now.Date.ToShortDateString()
+
+                              </label>
+                                </div>
+                                <div class="time">
+                                    Time :
+                               <label>@System.DateTime.Now.ToShortTimeString()</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header-bottom">
+                        <div class="span3">
+                            <div id="logo">
+                                <a href="default.aspx">
+                                    <img src="~/Images/logo.png"></a>
+                            </div>
+                        </div>
+                        <div class="span9">
+                            <div class="navigation">
+                                <a href="#" class="brand"></a>
+                                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </a>
+                                <div class="nav-collapse collapse">
+                                    <ul id="nav" class="nav">
+                                        <li><a href="@VenomitIT.Common.NavigationURL.AdminHomePage">DashBoard</a></li>
+                                        <li><a href="@VenomitIT.Common.NavigationURL.ManageDomain">Manage Domain</a></li>                                       
+                                        <li><a href="@VenomitIT.Common.NavigationURL.SignOutPage">Logout</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="span12">
+                <!-- Start of Main Content Container -->
+                <div class="main_content main_01">
+                    <!-- Start of Main Inner Left Container -->
+                    <div class="inner_main_left main_inner_ left_01">
+                        <!-- Start of Left Content Main Container -->
+                        <div class="inner_left_top inner_left_top_01">
+                            <div class="inner_left_bot inner_left_bot_01">
+                                <div class="inner_left_mid inner_left_mid_01">
+                                    <!-- Start of Add Project Container -->
+                                    <div class="addproject addproject_01">
+                                        <div class="inner_addproject inner_addproject_01">
+                                            @RenderBody()
+                                            <!-- End of Form Container -->
+                                        </div>
+                                    </div>
+                                    <!-- End of Add Project Container -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End of Left Content Main Container -->
+                    </div>
+                    <!-- End of Main Inner Left Container -->
+                </div>
+                <!-- End of Main Content Container -->
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Start of Footer MainFrame -->
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="span12">
+                    <div id="footer_wrapper">
+                        <div id="copyright">
+                                <span>Copyright &copy; 2015  Venom IT. All rights reserved.</span>
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End of Footer MainFrame -->
+
+</body>
+</html>

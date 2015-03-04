@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a631fc3dabc245eeb65a39a623db1cb5" Name="Diagram1">
+        <EntityTypeShape EntityType="cms_venomitModel.AboutU" Width="1.5" PointX="2.04693276716719" PointY="23.477138470614857" />
+        <EntityTypeShape EntityType="cms_venomitModel.AboutUsDetail" Width="1.5" PointX="8.1026002634794452" PointY="5.7424933341063991" />
+        <EntityTypeShape EntityType="cms_venomitModel.Domain_Master" Width="1.5" PointX="3.7424071206443044" PointY="1.9631537506185257" />
+        <EntityTypeShape EntityType="cms_venomitModel.Pricing_Master" Width="1.5" PointX="4.0054673012371493" PointY="31.828500047246226" />
+        <EntityTypeShape EntityType="cms_venomitModel.PricingDetail" Width="1.5" PointX="0.88956148218808762" PointY="25.880869504940168" />
+        <EntityTypeShape EntityType="cms_venomitModel.Service" Width="1.5" PointX="2.8279063305016172" PointY="29.946816011307209" />
+        <EntityTypeShape EntityType="cms_venomitModel.Slider_Details" Width="1.5" PointX="9.3405296119584378" PointY="11.859210943737631" />
+        <EntityTypeShape EntityType="cms_venomitModel.Slider_Master" Width="1.5" PointX="5.106266635053915" PointY="11.801607584488396" />
+        <EntityTypeShape EntityType="cms_venomitModel.Testimonial" Width="1.5" PointX="7.0966541725660921" PointY="16.173067696473126" />
+        <EntityTypeShape EntityType="cms_venomitModel.User_Master" Width="1.5" PointX="5.2551764032129089" PointY="17.92713337481354" />
+        <AssociationConnector Association="cms_venomitModel.FK_AboutUs_Domain_Master" />
+        <AssociationConnector Association="cms_venomitModel.FK_AboutUsDetails_AboutUs" />
+        <AssociationConnector Association="cms_venomitModel.FK_Pricing_Master_Domain_Master" />
+        <AssociationConnector Association="cms_venomitModel.FK_Services_Domain_Master" />
+        <AssociationConnector Association="cms_venomitModel.FK_Slider_Master_Domain_Master" />
+        <AssociationConnector Association="cms_venomitModel.FK_Testimonials_Domain_Master" />
+        <AssociationConnector Association="cms_venomitModel.FK_PricingDetails_Pricing_Master" />
+        <AssociationConnector Association="cms_venomitModel.FK_Slider_Details_Slider_Master" />
+        <EntityTypeShape EntityType="cms_venomitModel.DataCenter" Width="1.5" PointX="3.1775828074559485" PointY="15.851964451303688" />
+        <EntityTypeShape EntityType="cms_venomitModel.DataCenterDetail" Width="1.5" PointX="5.0251892176574042" PointY="29.975235237728448" />
+        <AssociationConnector Association="cms_venomitModel.FK_DataCenter_Domain_Master" />
+        <AssociationConnector Association="cms_venomitModel.FK_DataCenterDetails_DataCenter" />
+        <EntityTypeShape EntityType="cms_venomitModel.CustomerTestimonail" Width="1.5" PointX="1.7133053102126834" PointY="24.704076748669184" />
+        <EntityTypeShape EntityType="cms_venomitModel.WhyWe" Width="1.5" PointX="8.5811358506703446" PointY="17.044469751904007" />
+        <AssociationConnector Association="cms_venomitModel.FK_CustomerTestimonails_Domain_Master" />
+        <AssociationConnector Association="cms_venomitModel.FK_WhyWe_Domain_Master" />
+        <EntityTypeShape EntityType="cms_venomitModel.Backup_Master" Width="1.5" PointX="6.92568405108791" PointY="26.4662965212326" />
+        <AssociationConnector Association="cms_venomitModel.FK_Backup_Master_Domain_Master" />
+        <EntityTypeShape EntityType="cms_venomitModel.ContactDetail" Width="1.5" PointX="9.5838743045851" PointY="24.443839844522923" />
+        <AssociationConnector Association="cms_venomitModel.FK_ContactDetails_Domain_Master" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

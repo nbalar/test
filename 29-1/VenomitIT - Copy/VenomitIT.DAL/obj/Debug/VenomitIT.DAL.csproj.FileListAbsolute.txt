@@ -1,0 +1,30 @@
+H:\My Client\Steven Umesh Changes\MVC Projects\VenomitIT\VenomitIT.DAL\bin\Debug\VenomitIT.DAL.dll.config
+H:\My Client\Steven Umesh Changes\MVC Projects\VenomitIT\VenomitIT.DAL\bin\Debug\VenomitIT.DAL.dll
+H:\My Client\Steven Umesh Changes\MVC Projects\VenomitIT\VenomitIT.DAL\bin\Debug\VenomitIT.DAL.pdb
+H:\My Client\Steven Umesh Changes\MVC Projects\VenomitIT\VenomitIT.DAL\bin\Debug\EntityFramework.dll
+H:\My Client\Steven Umesh Changes\MVC Projects\VenomitIT\VenomitIT.DAL\bin\Debug\VenomitIT.Common.dll
+H:\My Client\Steven Umesh Changes\MVC Projects\VenomitIT\VenomitIT.DAL\bin\Debug\VenomitIT.Common.pdb
+H:\My Client\Steven Umesh Changes\MVC Projects\VenomitIT\VenomitIT.DAL\bin\Debug\EntityFramework.xml
+H:\My Client\Steven Umesh Changes\MVC Projects\VenomitIT\VenomitIT.DAL\obj\Debug\VenomitIT.DAL.csprojResolveAssemblyReference.cache
+H:\My Client\Steven Umesh Changes\MVC Projects\VenomitIT\VenomitIT.DAL\obj\Debug\VenomitIT.DAL.dll
+H:\My Client\Steven Umesh Changes\MVC Projects\VenomitIT\VenomitIT.DAL\obj\Debug\VenomitIT.DAL.pdb
+F:\My Client\Steven Powell\CMS\VenomitIT\VenomitIT.DAL\bin\Debug\VenomitIT.DAL.dll.config
+F:\My Client\Steven Powell\CMS\VenomitIT\VenomitIT.DAL\bin\Debug\VenomitIT.DAL.dll
+F:\My Client\Steven Powell\CMS\VenomitIT\VenomitIT.DAL\bin\Debug\VenomitIT.DAL.pdb
+F:\My Client\Steven Powell\CMS\VenomitIT\VenomitIT.DAL\bin\Debug\EntityFramework.dll
+F:\My Client\Steven Powell\CMS\VenomitIT\VenomitIT.DAL\bin\Debug\VenomitIT.Common.dll
+F:\My Client\Steven Powell\CMS\VenomitIT\VenomitIT.DAL\bin\Debug\VenomitIT.Common.pdb
+F:\My Client\Steven Powell\CMS\VenomitIT\VenomitIT.DAL\bin\Debug\EntityFramework.xml
+F:\My Client\Steven Powell\CMS\VenomitIT\VenomitIT.DAL\obj\Debug\VenomitIT.DAL.csprojResolveAssemblyReference.cache
+F:\My Client\Steven Powell\CMS\VenomitIT\VenomitIT.DAL\obj\Debug\VenomitIT.DAL.dll
+F:\My Client\Steven Powell\CMS\VenomitIT\VenomitIT.DAL\obj\Debug\VenomitIT.DAL.pdb
+F:\My Client\Steven Powell\CMS\27-1\VenomitIT\VenomitIT.DAL\bin\Debug\VenomitIT.DAL.dll.config
+F:\My Client\Steven Powell\CMS\27-1\VenomitIT\VenomitIT.DAL\bin\Debug\VenomitIT.DAL.dll
+F:\My Client\Steven Powell\CMS\27-1\VenomitIT\VenomitIT.DAL\bin\Debug\VenomitIT.DAL.pdb
+F:\My Client\Steven Powell\CMS\27-1\VenomitIT\VenomitIT.DAL\bin\Debug\EntityFramework.dll
+F:\My Client\Steven Powell\CMS\27-1\VenomitIT\VenomitIT.DAL\bin\Debug\VenomitIT.Common.dll
+F:\My Client\Steven Powell\CMS\27-1\VenomitIT\VenomitIT.DAL\bin\Debug\VenomitIT.Common.pdb
+F:\My Client\Steven Powell\CMS\27-1\VenomitIT\VenomitIT.DAL\bin\Debug\EntityFramework.xml
+F:\My Client\Steven Powell\CMS\27-1\VenomitIT\VenomitIT.DAL\obj\Debug\VenomitIT.DAL.csprojResolveAssemblyReference.cache
+F:\My Client\Steven Powell\CMS\27-1\VenomitIT\VenomitIT.DAL\obj\Debug\VenomitIT.DAL.dll
+F:\My Client\Steven Powell\CMS\27-1\VenomitIT\VenomitIT.DAL\obj\Debug\VenomitIT.DAL.pdb
